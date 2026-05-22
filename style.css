@@ -15,8 +15,9 @@ body {
   margin: auto;
 }
 
-h1 {
+h1, h2 {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .stats {

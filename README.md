@@ -53,6 +53,10 @@ student-score-dashboard/
 - `let` and `const`
 - Object and array usage
 
+## Live Demo
+
+https://abraham3stack.github.io/student-score-dashboard/
+
 ## Getting Started
 
 1. Clone the repository:

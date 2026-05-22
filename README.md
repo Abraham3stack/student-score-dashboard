@@ -58,7 +58,7 @@ student-score-dashboard/
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone git clone https://github.com/Abraham3stack/student-score-dashboard.git
 ```
 
 2. Open the project folder:

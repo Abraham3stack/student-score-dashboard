@@ -21,7 +21,8 @@ h1, h2 {
 }
 
 .stats {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   margin-bottom: 30px;
 }
@@ -55,4 +56,28 @@ h1, h2 {
 .fail {
   color: red;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .card,
+  .student-card {
+    padding: 18px;
+  }
+
+  .student-card h3 {
+    margin-bottom: 10px;
+  }
 }
